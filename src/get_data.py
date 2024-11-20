@@ -11,7 +11,7 @@ movimiento = input(
                 "2. Circular\n"
                 "3. Puñetazo\n"
                 "4. Flexión \n"
-                "5. Cachetada\n\n"
+                "5. Arriba y abajo\n\n"
                 "Su selección:"
             )
 
@@ -26,7 +26,7 @@ elif movimiento == 3:
 elif movimiento == 4:
     CSV_FILE = 'flex.csv'
 elif movimiento == 5:
-    CSV_FILE = 'cachetada.csv'
+    CSV_FILE = 'updown.csv'
 else:
     print("El tipo de movimiento no es válido\n")
     exit()
